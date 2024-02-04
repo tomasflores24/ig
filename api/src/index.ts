@@ -17,5 +17,4 @@ server.listen(PORT, () => {
   // axios.get('http://localhost:4000/login');
   console.log(`%s listening port ${PORT}`);
 });
-
-// http://localhost:4000/login
+// http://localhost:4000

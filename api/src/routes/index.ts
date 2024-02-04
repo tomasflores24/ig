@@ -10,7 +10,7 @@ async function getAllItemsFromFeed<T>(feed: Feed<any, T>): Promise<T[]> {
   return items;
 }
 
-router.get('/login', async (_req, res) => {
+router.get('/', async (_req, res) => {
   const user_name: string = process.env.user_name || '';
   const password: string = process.env.password || '';
   try {
